@@ -1,0 +1,327 @@
+.bg-container {
+    padding: 20px;
+}
+
+.bg-card-content {
+    border-radius: 2px;
+    border: 2px solid #4A90E2; /* New color */
+    display: flex;
+    flex-direction: column;
+}
+
+.input-size {
+    width: 80%;
+    height: 30px;
+}
+
+.card1 {
+    background-color: #A0D7E1; /* New color */
+    display: flex;
+    order: 1;
+    padding: 20px;
+}
+
+.radio-check {
+    height: 30px;
+}
+
+.card2 {
+    background-color: #6A7CBA; /* New color */
+    height: 50px;
+    order: 2;
+}
+
+.card3 {
+    background-color: #B2E1F0; /* New color */
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 3;
+}
+
+.card4 {
+    display: flex;
+    flex-direction: column;
+    order: 6;
+}
+
+.feature1 {
+    text-align: center;
+    background-color: #F4B400; /* New color */
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+}
+
+.feature2 {
+    text-align: center;
+    background-color: #D95F2D; /* New color */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    order: 3;
+}
+
+.feature3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C76DCA; /* New color */
+    width: 100%;
+    height: 20vh;
+    order: 4;
+}
+
+.feature4 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #90D5D4; /* New color */
+    width: 100%;
+    height: 20vh;
+    order: 1;
+}
+
+.card6 {
+    order: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: #F2E4F5; /* New color */
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .bg-container {
+        padding: 20px;
+    }
+
+    .bg-card-content {
+        border-radius: 2px;
+        border: 2px solid #4A90E2; /* New color */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .input-size {
+        width: 80%;
+        height: 30px;
+    }
+
+    .card1 {
+        background-color: #A0D7E1; /* New color */
+        display: flex;
+        order: 1;
+        padding: 20px;
+    }
+
+    .radio-check {
+        height: 30px;
+    }
+
+    .card2 {
+        background-color: #6A7CBA; /* New color */
+        height: 50px;
+        order: 2;
+    }
+
+    .card3 {
+        background-color: #B2E1F0; /* New color */
+        height: 200px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        order: 3;
+    }
+
+    .card4 {
+        display: flex;
+        flex-direction: row;
+        order: 4;
+        flex-wrap: wrap;
+    }
+
+    .feature1 {
+        text-align: center;
+        background-color: #F4B400; /* New color */
+        width: 33.33%;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        order: 1;
+    }
+
+    .feature2 {
+        text-align: center;
+        background-color: #D95F2D; /* New color */
+        width: 33.33%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+        order: 2;
+    }
+
+    .feature3 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #C76DCA; /* New color */
+        width: 33.33%;
+        height: 20vh;
+        order: 3;
+    }
+
+    .feature4 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #90D5D4; /* New color */
+        width: 100%;
+        height: 20vh;
+        order: 4;
+    }
+
+    .card5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 200px;
+        background-color: #8AE6D7; /* New color */
+        order: 5;
+        flex-wrap: wrap;
+    }
+
+    .card6 {
+        order: 6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 300px;
+        background-color: #F2E4F5; /* New color */
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .bg-container {
+        padding: 20px;
+    }
+
+    .bg-card-content {
+        border-radius: 2px;
+        border: 2px solid #4A90E2; /* New color */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .input-size {
+        width: 80%;
+        height: 30px;
+    }
+
+    .card1 {
+        background-color: #A0D7E1; /* New color */
+        display: flex;
+        order: 1;
+        padding: 20px;
+    }
+
+    .radio-check {
+        height: 30px;
+    }
+
+    .card2 {
+        background-color: #6A7CBA; /* New color */
+        height: 50px;
+        order: 2;
+    }
+
+    .card3 {
+        background-color: #B2E1F0; /* New color */
+        height: 200px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        order: 3;
+    }
+
+    .card4 {
+        display: flex;
+        flex-direction: row;
+        order: 6;
+        flex-wrap: wrap;
+    }
+
+    .feature1 {
+        text-align: center;
+        background-color: #F4B400; /* New color */
+        width: 50%;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        order: 2;
+    }
+
+    .feature2 {
+        text-align: center;
+        background-color: #D95F2D; /* New color */
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+        order: 3;
+    }
+
+    .feature3 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #C76DCA; /* New color */
+        width: 50%;
+        height: 20vh;
+        order: 4;
+    }
+
+    .feature4 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #90D5D4; /* New color */
+        width: 50%;
+        height: 20vh;
+        order: 1;
+    }
+
+    .card6 {
+        order: 4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 300px;
+        background-color: #F2E4F5; /* New color */
+    }
+}
